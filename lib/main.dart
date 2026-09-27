@@ -11,7 +11,13 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'school challenge 1',
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+      home: Scaffold(body: 
+      Row(
+        children: [ 
+          (Text('Dominique')),
+          (Text('Hobbies: watching series, sleeping, listeing to music,')),
+        ],
+      )),
     );
   }
 }
